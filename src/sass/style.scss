@@ -1,0 +1,16 @@
+@import "bootstrap/bootstrap-reboot.css";
+@import "bootstrap/bootstrap-utilities.css";
+@import "bootstrap/bootstrap-grid.css";
+@import "bootstrap/bootstrap.css";
+@import "libs/fonts";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // font-family:'Montserrat', sans-serif;
+}
+
+body {
+    font-family:'Montserrat', 'Merriweather','Raleway', sans-serif; 
+}

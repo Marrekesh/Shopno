@@ -1,8 +1,9 @@
-@import "bootstrap/bootstrap-reboot.css";
-@import "bootstrap/bootstrap-utilities.css";
-@import "bootstrap/bootstrap-grid.css";
-@import "bootstrap/bootstrap.css";
+@import "bootstrap/bootstrap-reboot";
+@import "bootstrap/bootstrap-utilities";
+@import "bootstrap/bootstrap-grid";
+@import "bootstrap/bootstrap";
 @import "libs/fonts";
+@import "base/variables";
 
 * {
     margin: 0;
@@ -11,6 +12,22 @@
     // font-family:'Montserrat', sans-serif;
 }
 
-body {
-    font-family:'Montserrat', 'Merriweather','Raleway', sans-serif; 
+html {
+    font-size: 62.5%;
 }
+body {
+    font-family:'Montserrat', 'Merriweather','Raleway', sans-serif;
+    font-size: 1.6rem;
+}
+
+.container {
+    // display: block;
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding:0 15px ;
+}
+
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/promo";

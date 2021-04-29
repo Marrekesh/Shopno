@@ -9,7 +9,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    // font-family:'Montserrat', sans-serif;
 }
 
 html {
@@ -19,7 +18,10 @@ body {
     font-family:'Montserrat', 'Merriweather','Raleway', sans-serif;
     font-size: 1.6rem;
 }
-
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
 .container {
     // display: block;
     max-width: 1170px;
@@ -31,3 +33,4 @@ body {
 @import "blocks/header";
 @import "blocks/nav";
 @import "blocks/promo";
+@import "blocks/btn";

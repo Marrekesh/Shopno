@@ -1,0 +1,13 @@
+.block-subtitle {
+    opacity: 0.61;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: $black;
+    margin-bottom: 147px;
+    &_center {
+        text-align: center;
+    }
+}

@@ -3,12 +3,14 @@
 @import "bootstrap/bootstrap-grid";
 @import "bootstrap/bootstrap";
 @import "libs/fonts";
+@import "libs/slick";
 @import "base/variables";
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    line-height: 1;
 }
 
 html {
@@ -34,3 +36,6 @@ h1,h2,h3,h4,h5,h6 {
 @import "blocks/nav";
 @import "blocks/promo";
 @import "blocks/btn";
+@import "blocks/about";
+@import "blocks/block-title";
+@import "blocks/block-subtitle";

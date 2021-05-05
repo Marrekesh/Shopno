@@ -1,9 +1,9 @@
 .featured {
     padding: 129px 0 125px 0;
-    align-items: center;
-    display: flex;
-    text-align: center;
-    justify-content: center;
+    // align-items: center;
+    // display: flex;
+    // text-align: center;
+    // justify-content: center;
     &__item {
         position: relative;
         width: 370px;
@@ -13,11 +13,30 @@
         justify-content: center; /*центрируем элемент по горизонтали */
         align-items: center; /* и вертикали */
         overflow: hidden;
-        margin: 0 15px 13px 0;
+        margin: 0 auto;
+        margin-bottom: 13px;
     }
+    &__item1 {
+        background: url(../img/f1.jpg) center center/cover no-repeat;
+    }
+    &__item2 {
+        background: url(../img/f2.jpg) center center/cover no-repeat;
+    }
+    &__item3 {
+        background: url(../img/f3.png) center center/cover no-repeat;
+    }
+    &__item4 {
+        background: url(../img/f4.jpg) center center/cover no-repeat;
+    }
+    &__item5 {
+        background: url(../img/f5.png) center center/cover no-repeat;
+    }
+    &__item6 {
+        background: url(../img/f6.jpg) center center/cover no-repeat;
+    }
+   
     // &__img {
     //     width: 100%;
     //     height: 100%;
-
     // }
 }

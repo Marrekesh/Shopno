@@ -24,6 +24,37 @@ h1,h2,h3,h4,h5,h6 {
     margin: 0;
     padding: 0;
 }
+
+// .row-flex {
+//     display: flex;
+//     flex-flow: row wrap;
+// }
+
+// .row {
+//     display: -webkit-box;
+//     display: -webkit-flex;
+//     display: -ms-flexbox;
+//     display:  flex;
+//     flex-wrap: wrap;
+//   }
+//   .row > [class*='col-'] {
+//     display: flex;
+//     flex-direction: column;
+//   }
+
+.flex-row .thumbnail,
+.flex-row .caption {
+  flex:1 0 auto;
+  flex-direction:column;
+}
+.flex-text {
+  flex-grow:1
+}
+.flex-row img {
+  height:auto;
+  width:100%
+}
+
 .container {
     // display: block;
     max-width: 1170px;
@@ -40,7 +71,7 @@ h1,h2,h3,h4,h5,h6 {
 @import "blocks/block-title";
 @import "blocks/block-subtitle";
 @import "blocks/featured";
-
+@import "blocks/services";
 
 
 @import "base/media";

@@ -46,4 +46,15 @@ jQuery(document).ready(function($) {
     toggleSlide('.services__item-toggle');
     toggleSlide('.services__switch-close');
 
+    $('.testimonial__slider').slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: true,
+        dots:true,
+        // variableWidth: true
+        prevArrow: '<button type="button" class="slick-prev"><img src="icons/prev.png"></button>',
+        nextArrow: '<button type="button" class="slick-next"><img src="icons/next.png"></button>',
+    });
+
 })

@@ -12,7 +12,9 @@
     box-sizing: border-box;
     line-height: 1;
 }
-
+ul {
+    margin: 0;
+}
 html {
     font-size: 62.5%;
 }
@@ -45,5 +47,9 @@ h1,h2,h3,h4,h5,h6 {
 @import "blocks/featured";
 @import "blocks/services";
 @import "blocks/team";
+@import "blocks/testimonial";
+@import "blocks/logos";
+@import "blocks/forms";
+
 
 @import "base/media";

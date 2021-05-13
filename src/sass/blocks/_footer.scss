@@ -1,0 +1,53 @@
+.footer {
+    padding: 93px 0 89px 0;
+    background-color: $footer-background;
+    &__wrapper {
+        text-align: center;
+    }
+    &__follow {
+        opacity: 0.8;
+        font-family: Raleway;
+        font-size: 1.6rem;
+        font-weight: 400;
+        letter-spacing: 0.01em;
+        color: $white;
+        margin-bottom: 19px;
+    }
+    &__link {
+        display: inline-block;
+        padding: 9px 15px;
+        background-color: rgba($link-background, 0.19);
+        margin-bottom: 43px;
+        transition: 0.3s all;
+        .fa {
+            opacity: 0.48;
+            font-size: 2.36rem;
+            font-weight: 400;
+            letter-spacing: 0.01em;
+            color: #faf4f4;
+        }
+        &:hover {
+            background-color: $dark-blue;
+            .fa {
+                opacity: 0.87;
+                font-size: 2.36rem;
+                font-weight: 400;
+                letter-spacing: 0.01em;
+                color: $black;
+                transition: 0.3s all;
+            }
+        }
+
+    }
+    &__p17 {
+        padding: 9px 17px;
+    }
+    &__copyright {
+        opacity: 0.4;
+        font-family: Raleway;
+        font-size: 1.6rem;
+        font-weight: 500;
+        letter-spacing: 0.01em;
+        color: $white;
+    }
+}
